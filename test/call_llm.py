@@ -5,8 +5,8 @@ from strands import Agent
 print("Connecting to AWS Bedrock...")
 
 session = boto3.Session(
-    aws_access_key_id="AKIAZI2LD5URJHK7U2PN",
-    aws_secret_access_key="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",
+    aws_access_key_id="",
+    aws_secret_access_key="",
     region_name="us-east-1"
 )
 
