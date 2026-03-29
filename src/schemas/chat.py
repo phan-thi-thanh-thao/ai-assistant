@@ -2,7 +2,12 @@ from pydantic import BaseModel
 from typing import Dict, Any, List, Optional
 
 class ChatRequest(BaseModel):
-    prompt: str
+    weight: float
+    height: float
+    goal: str
+    requirement: str
+    diet_type: str
+    medical_conditions: List[str] = []
 
 class ExerciseItem(BaseModel):
     exercise_id: int
